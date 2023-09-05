@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <header className="site-header bg-[rgb(3,37,65)]">
       <nav className="site-header__nav navigation">
-        <div className="container max-w-7xl m-0 m-auto">
+        <div className="container max-w-7xl my-0 mx-auto">
           <div className="navigation__inner py-6">
             <NavLink className="navigation__logo" to={"/"}>
               <img width={150} src={Logo} alt="site logo" />
